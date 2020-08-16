@@ -19,6 +19,9 @@ exports[`renders the component 1`] = `
       </code>
        and save to reload.
     </p>
+    <p>
+      This is a default create-react-app on purpose. Check out App.test.tsx for unit testing demo
+    </p>
     <a
       className="App-link"
       href="https://reactjs.org"
@@ -27,6 +30,10 @@ exports[`renders the component 1`] = `
     >
       Learn React
     </a>
+    <p>
+      Here, try this record button: 
+      <MicRecorderButton />
+    </p>
   </header>
 </div>
 `;
